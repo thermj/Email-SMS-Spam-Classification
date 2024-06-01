@@ -16,8 +16,9 @@ The preprocessing steps include:
 2. Exploratory data analysis (EDA):
 After preprocessing, the cleaned text data is converted into numerical features that can be used by the machine learning model. This is done using the TF-IDF Vectorizer (Term Frequency-Inverse Document Frequency). The TF-IDF vectorizer transforms the text data into numerical vectors that represent the importance of each word in the text relative to a corpus of documents.
 
-Term Frequency (TF): Measures the frequency of a word in a document.
-Inverse Document Frequency (IDF): Measures the importance of a word by accounting for how frequently it appears across all documents in the corpus.
+* Term Frequency (TF): Measures the frequency of a word in a document.
+* Inverse Document Frequency (IDF): Measures the importance of a word by accounting for how frequently it appears across all documents in the corpus.
+
 The TF-IDF score is a product of TF and IDF scores, highlighting words that are important in a specific document but not common across all documents.
 
 3. Model Training:
